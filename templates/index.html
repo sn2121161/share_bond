@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+  <title>债券与股价监控</title>
+  <meta charset="'UTF-8">
+  <meta http-equiv="refresh" content="10">
+  <style>
+    .refresh-tip {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 16px;
+      color: #868585;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center; margin-bottom: 20px;">债券与股价监控</h1>
+  <div class="refresh-tip">
+    页面将在<span id="countdown">10</span>秒后自动刷新
+  </div>
+  <div></div>
+  <table border="1" style="margin: 0 auto; width: 80%; border-collapse: collapse;">
+    <colgroup>
+      <col style="width: 60px">
+      <col style="width: 100px">
+      <col style="width: 50px">
+      <col style="width: 100px">
+      <col style="width: 80px">
+      <col style="width: 80px">
+      <col style="width: 100px">
+      <col style="width: 50px">
+      <col style="width: 50px">
+      <col style="width: 50px">
+      <col style="width: 40px">
+      <col style="width: 40px">
+      <col style="width: 40px">
+      <col style="width: 60px">
+    </colgroup>
+    <tr>
+      <th style="padding: 8px; background-color: #f7e7e7;">转债代码</th>
+      <th style="padding: 8px; background-color: #f7e7e7;">转债名称</th>
+      <th style="padding: 8px; background-color: #f7e7e7;">现价</th>
+      <th style="padding: 8px; background-color: #f7e7e7;">正股代码</th>
+      <th style="padding: 8px; background-color: #f7e7e7;">正股名称</th>
+      <th style="padding: 8px; background-color: #f7e7e7;">正股价</th>
+      <th style="padding: 8px; background-color: #f7e7e7;">债券涨跌幅</th>
+      <th style="padding: 8px; background-color: #f7e7e7;">正股涨跌幅</th>
+      <th style="padding: 8px; background-color: #f7e7e7;">涨跌幅差异</th>
+      <th style="padding: 8px; background-color: #f7e7e7;">转股价</th>
+      <th style="padding: 8px; background-color: #f7e7e7;">转股溢价率</th>
+      <th style="padding: 8px; background-color: #f7e7e7;">计算溢价率</th>
+      <th style="padding: 8px; background-color: #f7e7e7;">溢价率差异</th>
+      <th style="padding: 8px; background-color: #f7e7e7;">执行时间</th>
+    </tr>
+    {% for row in data %}
+    <tr>
+      <td style="padding: 8px; text-align: center;">{{ row.bond_no }}</td>
+      <td style="padding: 8px; text-align: center;">{{ row.bond_name }}</td>
+      <td style="padding: 8px; text-align: center;">{{ row.bond_value }}</td>
+      <td style="padding: 8px; text-align: center;">{{ row.share_no }}</td>
+      <td style="padding: 8px; text-align: center;">{{ row.share_name }}</td>
+      <td style="padding: 8px; text-align: center;">{{ row.share_value }}</td>
+      <td style="padding: 8px; text-align: center; color: {{ 'red' if row.bond_rate > 0 else'green' }}">
+          {{ "%.2f"|format(row.bond_rate|abs) }}%
+        </td>
+      <td style="padding: 8px; text-align: center; color: {{ 'red' if row.share_rate > 0 else'green' }}">
+          {{ "%.2f"|format(row.share_rate|abs) }}%
+        </td>
+      <td style="padding: 8px; text-align: center;">{{ row.rate_diff }}</td>
+      <td style="padding: 8px; text-align: center;">{{ row.convert_value }}</td>
+      <td style="padding: 8px; text-align: center;">{{ row.premium }}</td>
+      <td style="padding: 8px; text-align: center;">{{ row.calc_premium }}</td>
+      <td style="padding: 8px; text-align: center; color: {{ 'red' if row.difference > 0 else 'green' }}">
+          {{ "%.2f"|format(row.difference|abs) }}%
+        </td>
+      <td style="padding: 8px; text-align: center;">{{ row.execute_time }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+<script>
+  let time = 10;
+  const countdownElement = document.getElementById('countdown');
+  const interval = setInterval(() => {
+    time--;
+    countdownElement.textContent = time;
+    if (time <= 0) {
+      clearInterval(interval);
+      window.location.reload();
+    }
+  }, 1000);
+  countdownElement.textContent = time;
+</script>
+</body>
+</html>
