@@ -1,32 +1,42 @@
 # coding:utf-8
 from spider import get_webpage_content, refresh_data
+from database import Connection, generate_insert_sql, del_query
 from dataresolve import calc_columns
-from database import generate_insert_sql, Connection, del_query
-import time
 from logs import logger
+import time
+
+# 原始的main函数已移除，因为现在使用Flink DataStream API处理
+
 
 def main():
-    # 参数
+    # 数据库配置
+    db_config = {
+        'username': 'postgres',
+        'password': '',
+        'host': 'localhost',
+        'port': '5432',
+        'database': 'nzw'
+    }
+    pg = Connection(
+        db_config['username'],
+        db_config['password'],
+        db_config['host'],
+        db_config['port'],
+        db_config['database']
+    )
+
+    # 网页URL
     url = "https://www.jisilu.cn/web/data/cb/list"
-    username="postgres"
-    password=""
-    host="localhost"
-    port="5432"
-    database="nzw"
-    time_interval = 20  # 20 seconds for refresh
+    time_interval = 15  # 15 seconds for refresh
     hours = 2
     counts = 0
     start_time = time.time()
     end_time = start_time + hours * 3600  # 2小时之后停止
 
-    pg = Connection(
-        username=username, password=password,
-        host=host, port=port, database=database
-    )
     # driver只进一次
     print("程序开始")
     driver = get_webpage_content(url)
-
+    # debug
     while time.time() < end_time:
         loop_start = time.time()
 
@@ -46,7 +56,7 @@ def main():
         time.sleep(max(0, time_interval - elapsed_time))  # 休眠20秒中去掉执行时间的部分
         
     driver.quit()
-    logger.info("循环完成")
+    logger.info("程序结束")
 
     #清理昨日数据的语句
     delq = del_query()

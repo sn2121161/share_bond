@@ -6,9 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-import pandas as pd
-from datetime import datetime
+import pandas as pl
 from logs import logger
 
 
@@ -113,31 +111,23 @@ def refresh_data(driver):
     )
 
     items = list_container.find_elements(By.CSS_SELECTOR, "th")
-
-    title = []
-    for item in items:
-        title.append(item.text.replace("\n", ""))
+    title = list(map(lambda x: x.text.replace("\n", ""), items))
     logger.info("表头采集完成")
-    # 表体
 
+    # 表体
     table_body = nav_data.find_element(By.CSS_SELECTOR, 'div.jsl-table-body-wrapper')
     list_body = WebDriverWait(table_body, 10).until(
             # EC.presence_of_all_elements_located((By.CSS_SELECTOR, "table > tbody"))
             EC.presence_of_all_elements_located((By.CSS_SELECTOR, "tr"))
         )
-    # body_items = list_body.find_elements(By.CSS_SELECTOR, "tr")
-    body_items = list_body
-    bodies = []
-    for body in body_items:
-        body = body.text.replace('\n', " ").split(' ')  # 把\n替换成一个空格，然后再用空格分割
-        # 重组一个list
-        body = [item for item in body if item != '']
-        # bodies.append(body) 
-        if len(body) >= 30:
-            bodies.append(body)
-
+    # titles=30，筛选掉body_items中长度小于30的
+    bodies = list(
+        map(lambda row: [item for item in row if item.strip() != ''],  # 第3步：清理空字符串
+            filter(lambda x: len(x) >= 30 and ('退债' not in ' '.join(x)),  # 第2步：过滤
+                map(lambda x: x.text.replace('\n', " ").split(' '), list_body)  # 第1步：转换
+            )
+        )
+    )
     logger.info("表体采集完成")
-# 合并成dataframe
-    df = pd.DataFrame(data=bodies, columns=title)
-    # print(df)
+    df = pl.DataFrame(bodies, columns=title)
     return df

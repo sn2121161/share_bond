@@ -1,114 +1,206 @@
-2025-09-01 17:18:02 - INFO - 进入登陆界面
-2025-09-01 17:18:02 - INFO - 登陆成功
-2025-09-01 17:18:03 - INFO - 刷新成功
-2025-09-01 17:18:03 - INFO - 表头采集完成
-2025-09-01 17:18:09 - INFO - 表体采集完成
-2025-09-01 17:18:09 - INFO - 字段处理完成
-2025-09-01 17:18:09 - INFO - 数据插入成功
-2025-09-01 17:18:09 - INFO - 第1次循环完成，耗时6.580888986587524秒
-2025-09-01 17:18:23 - INFO - 刷新成功
-2025-09-01 17:18:23 - INFO - 表头采集完成
-2025-09-01 17:18:31 - INFO - 表体采集完成
-2025-09-01 17:18:31 - INFO - 字段处理完成
-2025-09-01 17:18:31 - INFO - 数据插入成功
-2025-09-01 17:18:31 - INFO - 第2次循环完成，耗时8.565004110336304秒
-2025-09-01 17:18:43 - INFO - 刷新成功
-2025-09-01 17:18:43 - INFO - 表头采集完成
-2025-09-01 17:18:51 - INFO - 表体采集完成
-2025-09-01 17:18:51 - INFO - 字段处理完成
-2025-09-01 17:18:51 - INFO - 数据插入成功
-2025-09-01 17:18:51 - INFO - 第3次循环完成，耗时8.323310136795044秒
-2025-09-01 17:19:03 - INFO - 刷新成功
-2025-09-01 17:19:03 - INFO - 表头采集完成
-2025-09-01 17:19:10 - INFO - 表体采集完成
-2025-09-01 17:19:10 - INFO - 字段处理完成
-2025-09-01 17:19:10 - INFO - 数据插入成功
-2025-09-01 17:19:10 - INFO - 第4次循环完成，耗时7.8009889125823975秒
-2025-09-01 17:19:23 - INFO - 刷新成功
-2025-09-01 17:19:23 - INFO - 表头采集完成
-2025-09-01 17:19:31 - INFO - 表体采集完成
-2025-09-01 17:19:31 - INFO - 字段处理完成
-2025-09-01 17:19:31 - INFO - 数据插入成功
-2025-09-01 17:19:31 - INFO - 第5次循环完成，耗时8.209062099456787秒
-2025-09-01 17:19:43 - INFO - 刷新成功
-2025-09-01 17:19:43 - INFO - 表头采集完成
-2025-09-01 17:19:50 - INFO - 表体采集完成
-2025-09-01 17:19:50 - INFO - 字段处理完成
-2025-09-01 17:19:50 - INFO - 数据插入成功
-2025-09-01 17:19:50 - INFO - 第6次循环完成，耗时7.704829216003418秒
-2025-09-01 17:20:03 - INFO - 刷新成功
-2025-09-01 17:20:03 - INFO - 表头采集完成
-2025-09-01 17:20:10 - INFO - 表体采集完成
-2025-09-01 17:20:10 - INFO - 字段处理完成
-2025-09-01 17:20:10 - INFO - 数据插入成功
-2025-09-01 17:20:10 - INFO - 第7次循环完成，耗时7.763839960098267秒
-2025-09-01 17:20:23 - INFO - 刷新成功
-2025-09-01 17:20:23 - INFO - 表头采集完成
-2025-09-01 17:20:30 - INFO - 表体采集完成
-2025-09-01 17:20:30 - INFO - 字段处理完成
-2025-09-01 17:20:30 - INFO - 数据插入成功
-2025-09-01 17:20:30 - INFO - 第8次循环完成，耗时7.755018711090088秒
-2025-09-01 17:20:43 - INFO - 刷新成功
-2025-09-01 17:20:43 - INFO - 表头采集完成
-2025-09-01 17:20:50 - INFO - 表体采集完成
-2025-09-01 17:20:50 - INFO - 字段处理完成
-2025-09-01 17:20:50 - INFO - 数据插入成功
-2025-09-01 17:20:50 - INFO - 第9次循环完成，耗时7.848688840866089秒
-2025-09-01 17:21:03 - INFO - 刷新成功
-2025-09-01 17:21:03 - INFO - 表头采集完成
-2025-09-01 17:21:10 - INFO - 表体采集完成
-2025-09-01 17:21:10 - INFO - 字段处理完成
-2025-09-01 17:21:10 - INFO - 数据插入成功
-2025-09-01 17:21:10 - INFO - 第10次循环完成，耗时7.643587112426758秒
-2025-09-01 17:21:23 - INFO - 刷新成功
-2025-09-01 17:21:23 - INFO - 表头采集完成
-2025-09-01 17:21:30 - INFO - 表体采集完成
-2025-09-01 17:21:30 - INFO - 字段处理完成
-2025-09-01 17:21:30 - INFO - 数据插入成功
-2025-09-01 17:21:30 - INFO - 第11次循环完成，耗时7.647869348526001秒
-2025-09-01 17:21:43 - INFO - 刷新成功
-2025-09-01 17:21:43 - INFO - 表头采集完成
-2025-09-01 17:21:50 - INFO - 表体采集完成
-2025-09-01 17:21:50 - INFO - 字段处理完成
-2025-09-01 17:21:50 - INFO - 数据插入成功
-2025-09-01 17:21:50 - INFO - 第12次循环完成，耗时7.607974290847778秒
-2025-09-01 17:22:03 - INFO - 刷新成功
-2025-09-01 17:22:03 - INFO - 表头采集完成
-2025-09-01 17:22:10 - INFO - 表体采集完成
-2025-09-01 17:22:10 - INFO - 字段处理完成
-2025-09-01 17:22:10 - INFO - 数据插入成功
-2025-09-01 17:22:10 - INFO - 第13次循环完成，耗时7.735682964324951秒
-2025-09-01 17:22:23 - INFO - 刷新成功
-2025-09-01 17:22:23 - INFO - 表头采集完成
-2025-09-01 17:22:31 - INFO - 表体采集完成
-2025-09-01 17:22:31 - INFO - 字段处理完成
-2025-09-01 17:22:31 - INFO - 数据插入成功
-2025-09-01 17:22:31 - INFO - 第14次循环完成，耗时8.167996883392334秒
-2025-09-01 17:22:43 - INFO - 刷新成功
-2025-09-01 17:22:43 - INFO - 表头采集完成
-2025-09-01 17:22:51 - INFO - 表体采集完成
-2025-09-01 17:22:51 - INFO - 字段处理完成
-2025-09-01 17:22:51 - INFO - 数据插入成功
-2025-09-01 17:22:51 - INFO - 第15次循环完成，耗时8.360222339630127秒
-2025-09-01 17:23:03 - INFO - 刷新成功
-2025-09-01 17:23:03 - INFO - 表头采集完成
-2025-09-01 17:23:11 - INFO - 表体采集完成
-2025-09-01 17:23:11 - INFO - 字段处理完成
-2025-09-01 17:23:11 - INFO - 数据插入成功
-2025-09-01 17:23:11 - INFO - 第16次循环完成，耗时8.160502672195435秒
-2025-09-01 17:23:23 - INFO - 刷新成功
-2025-09-01 17:23:23 - INFO - 表头采集完成
-2025-09-01 17:23:30 - INFO - 表体采集完成
-2025-09-01 17:23:30 - INFO - 字段处理完成
-2025-09-01 17:23:31 - INFO - 数据插入成功
-2025-09-01 17:23:31 - INFO - 第17次循环完成，耗时7.869553804397583秒
-2025-09-01 17:23:43 - INFO - 刷新成功
-2025-09-01 17:23:43 - INFO - 表头采集完成
-2025-09-01 17:23:50 - INFO - 表体采集完成
-2025-09-01 17:23:50 - INFO - 字段处理完成
-2025-09-01 17:23:50 - INFO - 数据插入成功
-2025-09-01 17:23:50 - INFO - 第18次循环完成，耗时7.795944929122925秒
-2025-09-01 17:24:03 - INFO - 循环完成
-2025-09-01 17:24:03 - INFO - 前日数据清理完成
-2025-09-01 17:24:03 - INFO - Job "job (trigger: cron[day_of_week='mon-fri', hour='17', minute='18'], next run at: 2025-09-02 17:18:00 CST)" executed successfully
-2025-09-01 17:24:47 - INFO - Scheduler has been shut down
+2025-09-10 17:35:02.487 - INFO - spider.py - 48 - 进入登陆界面
+2025-09-10 17:35:02.675 - INFO - spider.py - 84 - 登陆成功
+2025-09-10 17:35:03.221 - INFO - spider.py - 103 - 刷新成功
+2025-09-10 17:35:03.348 - INFO - spider.py - 115 - 表头采集完成
+2025-09-10 17:35:08.974 - INFO - spider.py - 131 - 表体采集完成
+2025-09-10 17:35:08.986 - INFO - dataresolve.py - 92 - 字段处理完成
+2025-09-10 17:35:08.991 - INFO - main.py - 50 - 数据插入成功
+2025-09-10 17:35:08.991 - INFO - main.py - 55 - 第1次循环完成，耗时5.801260709762573秒
+2025-09-10 17:35:23.228 - INFO - spider.py - 103 - 刷新成功
+2025-09-10 17:35:23.387 - INFO - spider.py - 115 - 表头采集完成
+2025-09-10 17:35:29.420 - INFO - spider.py - 131 - 表体采集完成
+2025-09-10 17:35:29.427 - INFO - dataresolve.py - 92 - 字段处理完成
+2025-09-10 17:35:29.428 - INFO - main.py - 50 - 数据插入成功
+2025-09-10 17:35:29.428 - INFO - main.py - 55 - 第2次循环完成，耗时6.2337729930877686秒
+2025-09-10 17:35:43.238 - INFO - spider.py - 103 - 刷新成功
+2025-09-10 17:35:43.405 - INFO - spider.py - 115 - 表头采集完成
+2025-09-10 17:35:49.400 - INFO - spider.py - 131 - 表体采集完成
+2025-09-10 17:35:49.407 - INFO - dataresolve.py - 92 - 字段处理完成
+2025-09-10 17:35:49.408 - INFO - main.py - 50 - 数据插入成功
+2025-09-10 17:35:49.408 - INFO - main.py - 55 - 第3次循环完成，耗时6.211766958236694秒
+2025-09-10 17:36:03.244 - INFO - spider.py - 103 - 刷新成功
+2025-09-10 17:36:03.426 - INFO - spider.py - 115 - 表头采集完成
+2025-09-10 17:36:09.483 - INFO - spider.py - 131 - 表体采集完成
+2025-09-10 17:36:09.489 - INFO - dataresolve.py - 92 - 字段处理完成
+2025-09-10 17:36:09.490 - INFO - main.py - 50 - 数据插入成功
+2025-09-10 17:36:09.490 - INFO - main.py - 55 - 第4次循环完成，耗时6.288609027862549秒
+2025-09-10 17:36:23.248 - INFO - spider.py - 103 - 刷新成功
+2025-09-10 17:36:23.411 - INFO - spider.py - 115 - 表头采集完成
+2025-09-10 17:36:24.359 - WARNING - connectionpool.py - 871 - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /session/26ebd12b573712827a41a7b273b0b931/element/f.4F92B01E129345C6873EC71727F881D4.d.DDDEEE5E9E8AEAEEEDE7EFB953690E7E.e.209/text
+2025-09-10 17:36:24.361 - WARNING - connectionpool.py - 871 - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d7b0d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/26ebd12b573712827a41a7b273b0b931/element/f.4F92B01E129345C6873EC71727F881D4.d.DDDEEE5E9E8AEAEEEDE7EFB953690E7E.e.209/text
+2025-09-10 17:36:24.361 - WARNING - connectionpool.py - 871 - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d7b2b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/26ebd12b573712827a41a7b273b0b931/element/f.4F92B01E129345C6873EC71727F881D4.d.DDDEEE5E9E8AEAEEEDE7EFB953690E7E.e.209/text
+2025-09-10 17:36:24.367 - ERROR - base.py - 131 - Job "job (trigger: cron[day_of_week='mon-fri', hour='17', minute='35'], next run at: 2025-09-11 17:35:00 CST)" raised an exception
+Traceback (most recent call last):
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connection.py", line 200, in _new_conn
+    sock = connection.create_connection(
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connection.py", line 388, in request
+    self.endheaders()
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connection.py", line 215, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x104d7bd90>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/Users/nzw/Documents/python_proj/share_bond/app.py", line 12, in job
+    main()
+  File "/Users/nzw/Documents/python_proj/share_bond/main.py", line 43, in main
+    df = refresh_data(driver)
+  File "/Users/nzw/Documents/python_proj/share_bond/spider.py", line 124, in refresh_data
+    bodies = list(
+  File "/Users/nzw/Documents/python_proj/share_bond/spider.py", line 127, in <lambda>
+    map(lambda x: x.text.replace('\n', " ").split(' '), list_body)  # 第1步：转换
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 90, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)["value"]
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 352, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 306, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 326, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/_request_methods.py", line 110, in request
+    return self.request_encode_url(
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/_request_methods.py", line 143, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 874, in urlopen
+    return self.urlopen(
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 874, in urlopen
+    return self.urlopen(
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 874, in urlopen
+    return self.urlopen(
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=64858): Max retries exceeded with url: /session/26ebd12b573712827a41a7b273b0b931/element/f.4F92B01E129345C6873EC71727F881D4.d.DDDEEE5E9E8AEAEEEDE7EFB953690E7E.e.209/text (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x104d7bd90>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-09-10 17:36:24.374 - INFO - base.py - 212 - Scheduler has been shut down
+2025-09-10 17:38:02.242 - INFO - spider.py - 48 - 进入登陆界面
+2025-09-10 17:38:02.425 - INFO - spider.py - 84 - 登陆成功
+2025-09-10 17:38:02.972 - INFO - spider.py - 103 - 刷新成功
+2025-09-10 17:38:03.136 - INFO - spider.py - 115 - 表头采集完成
+2025-09-10 17:38:08.571 - INFO - spider.py - 131 - 表体采集完成
+2025-09-10 17:38:08.582 - INFO - dataresolve.py - 92 - 字段处理完成
+2025-09-10 17:38:08.586 - INFO - main.py - 50 - 数据插入成功
+2025-09-10 17:38:08.586 - INFO - main.py - 55 - 第1次循环完成，耗时5.644877910614014秒
+2025-09-10 17:38:17.978 - INFO - spider.py - 103 - 刷新成功
+2025-09-10 17:38:18.171 - INFO - spider.py - 115 - 表头采集完成
+2025-09-10 17:38:24.182 - INFO - spider.py - 131 - 表体采集完成
+2025-09-10 17:38:24.189 - INFO - dataresolve.py - 92 - 字段处理完成
+2025-09-10 17:38:24.191 - INFO - main.py - 50 - 数据插入成功
+2025-09-10 17:38:24.191 - INFO - main.py - 55 - 第2次循环完成，耗时6.244178771972656秒
+2025-09-10 17:38:32.995 - INFO - spider.py - 103 - 刷新成功
+2025-09-10 17:38:33.173 - INFO - spider.py - 115 - 表头采集完成
+2025-09-10 17:38:39.152 - INFO - spider.py - 131 - 表体采集完成
+2025-09-10 17:38:39.158 - INFO - dataresolve.py - 92 - 字段处理完成
+2025-09-10 17:38:39.160 - INFO - main.py - 50 - 数据插入成功
+2025-09-10 17:38:39.160 - INFO - main.py - 55 - 第3次循环完成，耗时6.2082061767578125秒
+2025-09-10 17:38:48.024 - INFO - spider.py - 103 - 刷新成功
+2025-09-10 17:38:48.207 - INFO - spider.py - 115 - 表头采集完成
+2025-09-10 17:38:54.322 - INFO - spider.py - 131 - 表体采集完成
+2025-09-10 17:38:54.331 - INFO - dataresolve.py - 92 - 字段处理完成
+2025-09-10 17:38:54.332 - INFO - main.py - 50 - 数据插入成功
+2025-09-10 17:38:54.332 - INFO - main.py - 55 - 第4次循环完成，耗时6.375198841094971秒
+2025-09-10 17:39:03.011 - INFO - spider.py - 103 - 刷新成功
+2025-09-10 17:39:03.172 - INFO - spider.py - 115 - 表头采集完成
+2025-09-10 17:39:09.174 - INFO - spider.py - 131 - 表体采集完成
+2025-09-10 17:39:09.181 - INFO - dataresolve.py - 92 - 字段处理完成
+2025-09-10 17:39:09.182 - INFO - main.py - 50 - 数据插入成功
+2025-09-10 17:39:09.182 - INFO - main.py - 55 - 第5次循环完成，耗时6.2197511196136475秒
+2025-09-10 17:39:17.965 - WARNING - connectionpool.py - 871 - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x14204f370>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/dd06c2e5ccf552ab39ba37c746bd8d2f/element
+2025-09-10 17:39:17.966 - WARNING - connectionpool.py - 871 - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102f1f730>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/dd06c2e5ccf552ab39ba37c746bd8d2f/element
+2025-09-10 17:39:17.966 - WARNING - connectionpool.py - 871 - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1411f16c0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/dd06c2e5ccf552ab39ba37c746bd8d2f/element
+2025-09-10 17:39:17.968 - ERROR - base.py - 131 - Job "job (trigger: cron[day_of_week='mon-fri', hour='17', minute='38'], next run at: 2025-09-11 17:38:00 CST)" raised an exception
+Traceback (most recent call last):
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connection.py", line 200, in _new_conn
+    sock = connection.create_connection(
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connection.py", line 388, in request
+    self.endheaders()
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connection.py", line 215, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x1411f2050>: Failed to establish a new connection: [Errno 61] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/Users/nzw/Documents/python_proj/share_bond/app.py", line 12, in job
+    main()
+  File "/Users/nzw/Documents/python_proj/share_bond/main.py", line 43, in main
+    df = refresh_data(driver)
+  File "/Users/nzw/Documents/python_proj/share_bond/spider.py", line 97, in refresh_data
+    refresh = driver.find_element(By.XPATH, refresh_xpath)
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 748, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 352, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 306, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/selenium/webdriver/remote/remote_connection.py", line 326, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/_request_methods.py", line 118, in request
+    return self.request_encode_body(
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/_request_methods.py", line 217, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 874, in urlopen
+    return self.urlopen(
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 874, in urlopen
+    return self.urlopen(
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 874, in urlopen
+    return self.urlopen(
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "/Users/nzw/miniconda3/miniconda3/envs/firstenv/lib/python3.10/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=64965): Max retries exceeded with url: /session/dd06c2e5ccf552ab39ba37c746bd8d2f/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1411f2050>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-09-10 17:39:17.971 - INFO - base.py - 212 - Scheduler has been shut down

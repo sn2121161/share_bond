@@ -67,7 +67,7 @@ class Connection():
 def generate_insert_sql(df):
     """生成批量插入SQL"""
     values = []
-    for _, row in df.iterrows():
+    for row in df.iter_rows(named=True):
         # 处理特殊字符并构建值元组
         value_str = (
             f"('{row['转债名称']}', '{row['代码']}', '{row['正股名称']}', "
